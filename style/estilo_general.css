@@ -1,1 +1,7 @@
 /*En esta hoja se van a poner los estilos que se usan para todas las views, como puede ser las variables de hojas de colores, y otras cosas mas*/
+:root{
+    --celeste:#3498DB;
+    --violeta:#AF7AC5;
+    --negro:#212F3D;
+    --blanco:#ECF0F1;
+}
