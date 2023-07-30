@@ -5,3 +5,14 @@
     --negro:#212F3D;
     --blanco:#ECF0F1;
 }
+
+.navbar{
+    padding:0px;
+}
+
+.active{
+    color: var(--blanco) !important;
+}
+.navblue{
+    background-color: var(--celeste);
+}
