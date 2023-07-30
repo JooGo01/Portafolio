@@ -1,0 +1,50 @@
+body{
+    background-color: var(--negro);
+}
+
+.titulo-presentacion{
+    float:left;
+    color:var(--blanco);
+    position: relative;
+}
+
+#nombre{
+    /*background-color: var(--blanco);*/
+    position: relative;
+    font-size:3em;
+    color:var(--celeste);
+}
+
+#nombre::after{
+    content:'|';
+    position: absolute;
+    background-color: var(--negro);
+    right: 0;
+    height: 100%;
+    color:var(--celeste);
+    animation: cambiarContenido 3s;
+    animation: maquina 3s steps(10) alternate, transparencia 1s infinite;
+}
+
+@keyframes maquina {
+    from{
+        width: 100%;
+    }
+    to{
+        width: 0;
+    }
+}
+
+@keyframes cambiarContenido{
+    100%{
+        content: '';
+    }
+}
+
+@keyframes transparencia {
+    50%{
+        color:transparent;
+    }
+}
+#rubro{
+}
